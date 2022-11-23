@@ -71,3 +71,6 @@ To stop docker container
 docker stop <container_id>
 ```
 
+For CI/CD we need to create a .github folder and a "workflows" folder under the folder and create a "main.yaml" file to trigger the deployement to github and further onwards to Heroku
+
+
